@@ -2,7 +2,7 @@
 
 A collection of specialized AI agents built by [@gotsetthawut](https://github.com/gotsetthawut).
 
-> Full setup guide: [ECOSYSTEM.md](ECOSYSTEM.md)
+> Full setup guide: [ECOSYSTEM.md](ECOSYSTEM.md) | Architecture decision: [ADR-001](docs/ADR-001-ecosystem-architecture.md)
 
 ---
 
@@ -22,11 +22,11 @@ A collection of specialized AI agents built by [@gotsetthawut](https://github.co
 ```
 YOU
  |
- +---> Thomas  (teaches you) -------> KIM STORE
- |                                         |
- +---> BIVA    (validates ideas) ---> KIM STORE
- |                                         |
- +---> KIM     (remembers everything) <----+
+ +---> Thomas  (teaches you) ---------> KIM STORE
+ |                                           |
+ +---> BIVA    (validates ideas) -----> KIM STORE
+ |                                           |
+ +---> KIM     (remembers everything) <------+
  |             (answers: what do we know about X?)
  |
  +---> Atlas   (coming soon)
@@ -41,16 +41,21 @@ KIM is the shared memory layer. Every lesson and every decision is stored there 
 **Chat Projects** — one agent per project, deep focused work
 **Cowork** — all agents in one session, collaborative work
 
-See [ECOSYSTEM.md](ECOSYSTEM.md) for full step-by-step setup.
-
 ---
 
 ## Quick Start
 
-1. Read [ECOSYSTEM.md](ECOSYSTEM.md)
+1. Read [ECOSYSTEM.md](ECOSYSTEM.md) — full setup guide
 2. Create 4 Claude Projects at claude.ai/projects (one per agent)
-3. Clone repos and run `create-[agent]-skill.bat` to get `.skill` files
-4. Drag `.skill` files into Cowork
+3. Run [update-all-skills.bat](update-all-skills.bat) — clones repos and builds .skill files
+4. Drag .skill files into Cowork
+
+---
+
+## Architecture
+
+See [docs/ADR-001-ecosystem-architecture.md](docs/ADR-001-ecosystem-architecture.md) for the full
+architecture decision record — why separate repos, why KIM as hub, trade-offs considered, and what to revisit.
 
 ---
 Built with Claude AI.
