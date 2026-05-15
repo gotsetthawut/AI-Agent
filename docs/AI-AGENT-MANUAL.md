@@ -36,6 +36,7 @@ and future automations can stay synchronized.
 | `README.md` | Start here. It gives the short overview and links to the important manuals. |
 | `ECOSYSTEM.md` | Use this for setup and daily operation of Claude Projects and Cowork skills. |
 | `docs/AI-AGENT-MANUAL.md` | Use this as the main handbook for the whole AI-Agent system. |
+| `docs/AI-AGENT-WORKFLOW.md` | Use this to understand how BIVA, Thomas, KIM, Atlas, Aegis, and future teams work together. |
 | `docs/CI-PROCESS.md` | Use this when working with Git branches, commits, pull requests, CI, merges, and releases. |
 | `docs/ADR-001-ecosystem-architecture.md` | Use this to understand why the ecosystem uses separate agent repos and KIM as the hub. |
 | `docs/REPOSITORY-STRUCTURE-REVIEW.md` | Use this to decide whether the current repo structure should stay or change. |
@@ -138,6 +139,32 @@ This structure is recommended for now. See:
 
 ---
 
+## Ecosystem Workflow
+
+Use this operating loop:
+
+```text
+Brainstorm / Research / Validate
+  -> Keep / Library
+  -> Plan / Execute
+  -> Store results back into Library
+```
+
+Main responsibilities:
+
+| Stage | Agents | Result |
+|-------|--------|--------|
+| Brainstorm / Research / Validation | BIVA, Thomas | Idea validation, learning material, research |
+| Keep / Library | KIM | Durable shared knowledge |
+| Planning / Execution | Atlas, Aegis candidate, future execution agents | Project maps, architecture, implementation |
+| Future Design | Future design team | UX, UI, design systems, prototypes |
+
+Detailed workflow:
+
+[AI-AGENT-WORKFLOW.md](AI-AGENT-WORKFLOW.md)
+
+---
+
 ## Operating Model
 
 The AI-Agent workspace has four layers.
@@ -185,6 +212,7 @@ AI-Agent/
   docs/
     ADR-001-ecosystem-architecture.md
     AI-AGENT-MANUAL.md
+    AI-AGENT-WORKFLOW.md
     CI-PROCESS.md
     REPOSITORY-STRUCTURE-REVIEW.md
 ```

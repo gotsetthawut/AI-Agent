@@ -1,0 +1,27 @@
+# Ecosystem Overview
+
+The AI-Agent ecosystem is a set of specialized agents coordinated through KIM.
+
+## Agents
+
+| Agent | Role |
+|-------|------|
+| BIVA | Business Idea Validation Analyst |
+| KIM | Knowledge Intelligence Manager and shared library |
+| Thomas | Personal Teaching Agent |
+| Atlas | Project Cartographer |
+| Aegis | Candidate Engineering Lead Agent |
+
+## Core Pattern
+
+```text
+User
+  -> asks an agent for focused work
+  -> agent produces useful output
+  -> KIM stores durable knowledge
+  -> future agents retrieve from KIM
+```
+
+KIM is the memory layer. NotebookLM is the reading and synthesis layer over KIM
+sources.
+

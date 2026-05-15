@@ -1,0 +1,39 @@
+KIM Storage Templates
+
+Use these templates to save NotebookLM outputs back into KIM.
+
+NotebookLM Summary:
+
+KIM STORE:
+---
+title: REF-0002: NotebookLM Summary of [Topic]
+tags: [notebooklm, kim, summary]
+source: notebooklm
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+summary: One-line summary.
+---
+
+[Paste NotebookLM summary here]
+
+Decision Note:
+
+KIM STORE:
+---
+title: DEC-0001: [Decision Title]
+tags: [decision, kim, agent-ecosystem]
+source: notebooklm
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+summary: One-line decision summary.
+---
+
+Decision:
+[Decision]
+
+Reason:
+[Reason]
+
+Next Action:
+[Next action]
+

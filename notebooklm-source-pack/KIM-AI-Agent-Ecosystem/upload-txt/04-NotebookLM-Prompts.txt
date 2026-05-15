@@ -1,0 +1,25 @@
+NotebookLM Prompt Pack
+
+Use these prompts inside NotebookLM.
+
+First Prompt:
+
+Based only on these sources, explain the AI-Agent ecosystem like an operating
+manual. Include the roles of BIVA, KIM, Thomas, Atlas, Aegis, NotebookLM, and
+future design agents. Identify unclear boundaries or missing decisions.
+
+Boundary Prompt:
+
+Find overlap or contradiction between BIVA, KIM, Thomas, Atlas, and Aegis. For
+each issue, explain the risk and recommend a cleaner boundary.
+
+KIM Prompt:
+
+Design a practical KIM library structure based on these sources. Include
+folders, document types, naming conventions, and when to store outputs.
+
+Save Back Prompt:
+
+Convert your answer into a KIM STORE note with YAML frontmatter. Use a clear
+title, tags, source:notebooklm, date fields, summary, and final content.
+
