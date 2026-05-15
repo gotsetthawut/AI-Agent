@@ -63,8 +63,11 @@ architecture decision record — why separate repos, why KIM as hub, trade-offs 
 | Manual | Purpose |
 |--------|---------|
 | [AI-AGENT-MANUAL.md](docs/AI-AGENT-MANUAL.md) | Main handbook for the AI-Agent workspace |
+| [ATLAS-AEGIS-ROLE-DECISION.md](docs/ATLAS-AEGIS-ROLE-DECISION.md) | Decision record separating Atlas from the Aegis candidate |
 | [ATLAS-PROJECT-SPACE.md](docs/ATLAS-PROJECT-SPACE.md) | Working space note for defining Atlas |
+| [BIVA-AEGIS-VALIDATION-BRIEF.md](docs/BIVA-AEGIS-VALIDATION-BRIEF.md) | Paste-ready BIVA validation brief for the Aegis agent idea |
 | [CI-PROCESS.md](docs/CI-PROCESS.md) | GitHub branch, pull request, CI, merge, release, and automation process |
+| [KIM-STORE-AEGIS-PROMPT.md](docs/KIM-STORE-AEGIS-PROMPT.md) | Paste-ready KIM STORE block for the Aegis prompt draft |
 | [REPOSITORY-STRUCTURE-REVIEW.md](docs/REPOSITORY-STRUCTURE-REVIEW.md) | Review of the hub repo and separate agent repo structure |
 
 ---
