@@ -2,7 +2,7 @@
 
 A collection of specialized AI agents built by [@gotsetthawut](https://github.com/gotsetthawut).
 
-> Full setup guide: [ECOSYSTEM.md](ECOSYSTEM.md) | Architecture decision: [ADR-001](docs/ADR-001-ecosystem-architecture.md)
+> Full setup guide: [ECOSYSTEM.md](ECOSYSTEM.md) | Main manual: [AI-AGENT-MANUAL.md](docs/AI-AGENT-MANUAL.md) | CI process: [CI-PROCESS.md](docs/CI-PROCESS.md) | Architecture decision: [ADR-001](docs/ADR-001-ecosystem-architecture.md)
 
 ---
 
@@ -58,4 +58,14 @@ See [docs/ADR-001-ecosystem-architecture.md](docs/ADR-001-ecosystem-architecture
 architecture decision record — why separate repos, why KIM as hub, trade-offs considered, and what to revisit.
 
 ---
+## Manuals
+
+| Manual | Purpose |
+|--------|---------|
+| [AI-AGENT-MANUAL.md](docs/AI-AGENT-MANUAL.md) | Main handbook for the AI-Agent workspace |
+| [CI-PROCESS.md](docs/CI-PROCESS.md) | GitHub branch, pull request, CI, merge, release, and automation process |
+| [REPOSITORY-STRUCTURE-REVIEW.md](docs/REPOSITORY-STRUCTURE-REVIEW.md) | Review of the hub repo and separate agent repo structure |
+
+---
+
 Built with Claude AI.
